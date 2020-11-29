@@ -1,0 +1,23 @@
+{
+  "name": "cypress-testproject",
+  "version": "1.0.0",
+  "description": "Automation using Cypress for Test Project",
+  "main": "index.js",
+  "scripts": {
+    "cy:open" : "cypress open",
+    "cy:run"  : "cypress run",
+    "cy: run-dashboard": "cypress run --record --key e1f3fde5-e9a7-4283-bbd5-34ba1caab16a",
+    "cy:update-snapshots": "cypress run --env updateSnapshots=true"
+  },
+  "keywords": [
+    "Automation",
+    "Cypress"
+  ],
+  "author": "Sarita Cutinha",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^5.6.0",
+    "cypress-image-snapshot": "^3.1.1",
+    "prettier": "^2.2.0"
+  }
+}

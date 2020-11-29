@@ -1,0 +1,19 @@
+{
+    "plan": "Basic",    
+    "email" : "testemail@gmail.com",
+    "password":"s3cret",
+    "firstName": "Testname",
+    "lastName" :  "TestlastName",
+    "gender"    : "Female",
+    "birthDay": "05",
+    "birthMonth": "03",
+    "birthYear":"1992",
+    "postCode":"5069",
+    "payment": "0",
+    "creditCard": "5105105105105100",
+    "expiry": "05/25",
+     "cvv" : "182"
+
+
+
+}
