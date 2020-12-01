@@ -17,7 +17,7 @@ Test Coding Challenge result for the following usecases using Cypress.io
 3. Provide valid username and password in the login_username, login_password fields of config.js file.
 4. npm run cy:open
 
-## Reuirements
+## Requirements
 
 - Create a folder and file structure to run your tests --> Folder structure :
   --> Cypress > Integration > e2e > TestName.spec.js
