@@ -2,26 +2,33 @@
 
 ## Description
 
--Created tests for Sign Up functionality, Log in(Till Captcha is encountered) and WatchTeaser(Playback for one video) page.
-Provide valid log in id and password in the config.json file.
+Test Coding Challenge result for the following usecases using Cypress.io
+
+1. Log In.
+2. Sign Up
+3. Watch Trailer
 
 ## Details
 
-### 👣 Steps
+### 👣 Steps for running the test project.
 
-- Install a test framework from below into the directory follow the specific framework README.md file to correctly install.
+1. Clone repository.
+2. Run 'npm install'
+3. Provide valid username and password in the login_username, login_password fields of config.js file.
+4. npm run cy:open
 
-  - [Cypress](https://www.cypress.io/) --> Installed Cypress
-  - [Playwright](https://playwright.dev/)
+## Reuirements
 
-- Create a folder and file structure to run your tests --> Folder structure : Cypress > Tests > e2e > TestName.spec.js
+- Create a folder and file structure to run your tests --> Folder structure :
+  --> Cypress > Integration > e2e > TestName.spec.js
 
-- Add a script in your package.json file for kicking off your tests on the URLS specified. --> Done
+- Add a script in your package.json file for kicking off your tests on the URLS specified.
+  --> Done
 
 - Create 8-10 tests for l(including one for playback) --> LogIn to Stan triggers 8-10 image validations.
   --> Logging in API required cookies and has expiry.
   --> Sent an Email for discussion.
-- Create 2-5 tests for https://www.stan.com.au/watch/ --> Require front end code. Created basic test cases.
+- Create 2-5 tests for https://www.stan.com.au/watch/ --> Created 2 test cases
 - Create 1-2 tests for https://www.stan.com.au/ signup page. --> Done.
 
 - Also, add the following info to your README:
@@ -32,7 +39,7 @@ Considering the inputs given below and keeping in mind to keep any noise away fr
 1. Created test fixtures for data.
 2. Created config file for commonly used data like the URLs.
 3. Divided the Web App into components and pages and created class for the same with functions so the functions could be reusable if needed.
-4. Created Cyoress commands for common functions.
+4. Created Cypress commands for common functions.
 5. Maintained abstraction -in the tests.
 
 Are there any improvements you could make to your submission?
