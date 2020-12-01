@@ -4,8 +4,8 @@
   "description": "Automation using Cypress for Test Project",
   "main": "index.js",
   "scripts": {
-    "cy:open" : "cypress open",
-    "cy:run"  : "cypress run",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
     "cy: run-dashboard": "cypress run --record --key e1f3fde5-e9a7-4283-bbd5-34ba1caab16a",
     "cy:update-snapshots": "cypress run --env updateSnapshots=true"
   },

@@ -2,7 +2,7 @@
 
 ## Description
 
--Created tests for Sign Up functionality, Log in(Till Captcha is encountered) and WatchTeaser page.
+-Created tests for Sign Up functionality, Log in(Till Captcha is encountered) and WatchTeaser(Playback for one video) page.
 Provide valid log in id and password in the config.json file.
 
 ## Details

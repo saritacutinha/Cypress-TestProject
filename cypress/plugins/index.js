@@ -17,8 +17,13 @@
  * 
  */
 const {addMatchImageSnapshotPlugin} = require('cypress-image-snapshot/plugin')
-module.exports = (on, config) => {
+module.exports = (on, config) => {  
   // `on` is used to hook into various events Cypress emits
+  on('before:browser:launch', (browser = {}, launchOptions) => {
+    launchOptions.args.splice(launchOptions.args.indexOf('--autoplay-policy=default'), 1)    
+    return launchOptions     
+  })
+ 
   addMatchImageSnapshotPlugin(on, config)
 }
  

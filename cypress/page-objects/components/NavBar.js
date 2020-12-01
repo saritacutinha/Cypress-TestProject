@@ -12,7 +12,7 @@ export default class Navbar {
     }
 
     static clickStartYourFreeTrial(){
-        cy.get('a[href="/?intent=register"]').click()
+        cy.get('a[href="/?intent=register"]').should('have.attr', 'href', "/?intent=register")
     }
 
     static clickStartWatching() {
